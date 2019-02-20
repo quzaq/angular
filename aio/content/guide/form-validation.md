@@ -189,6 +189,12 @@ doesn’t have a `forbiddenName`.
 
 </div>
 
+<div class="alert is-helpful">
+
+Custom validation directive, like any other _directive_, must be declared in [Angular Modules](guide/ngmodules) in the same manner as _components_.
+
+</div>
+
 ## Control status CSS classes
 
 Like in AngularJS, Angular automatically mirrors many control properties onto the form control element as CSS classes. You can use these classes to style form control elements according to the state of the form. The following classes are currently supported:
